@@ -6,8 +6,11 @@ export default {
     "./resources/**/*.vue",
     "node_modules/preline/dist/*.js",
   ],
-  theme: {
-    extend: {},
+  darkMode: 'class',
+  theme:{
+    fontFamily: {
+      sans: ['Inter', 'sans-serif']
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
